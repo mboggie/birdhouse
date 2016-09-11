@@ -1,0 +1,1 @@
+* * * * * /home/ubuntu/birdhouse/birdhouse-mon.py /home/ubuntu/birdhouse/birdhouse.cfg >> /mnt/log/birdhouse.monitor.log 2>&1

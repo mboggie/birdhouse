@@ -1,0 +1,136 @@
+body,html {
+	color:#fff;
+	background-color: #333;
+	font-family: 'Dosis', sans-serif;
+	font-size:1.1em;
+	line-height:1.4em;
+	font-weight:100;
+	/*letter-spacing: .05em;*/
+}
+a:link, a:visited {
+	color:#EFE80C;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+#container {
+	width:80%;
+	max-width: 960px;
+	margin: 20px auto;
+}
+/*INTRO*/
+#intro {
+	width:80%;
+	max-width:600px;
+	margin: 50px auto;
+	text-align: justify;
+}
+#intro p {
+	margin:0px 0px 30px 0px;
+}
+#login {
+	padding:10px;
+	background-color:#EFE80C;
+	color: #333;
+	font-weight: 500;
+	width:200px;
+	margin:auto;
+	display: block;
+	text-align:center;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius: 5px;
+}
+
+/*HEADER*/
+#rnd {
+	float: left;
+}
+#rnd-intro img {
+	float: left;
+}
+#nav {
+	font-size:0.75em;
+	float: right;
+}
+
+#title {
+	font-family: 'Dosis', sans-serif;
+	font-size:2.5em;
+	font-weight: 400;
+	margin:30px 0px 100px 0px;
+	text-align: center;
+	/*opacity: 0.7;*/
+	letter-spacing: .1em;
+}
+#logo {
+	margin:30px 0px 30px 0px;
+	text-align: center;
+	/*opacity: 0.7;*/
+}
+#bird {
+	width:25%;
+	min-width: 150px;
+	max-width: 400px
+}
+
+/*CONTENT*/
+h2 {
+	font-weight: 700;
+	padding: 10px 0px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+ol {
+	margin-left: 20px;
+}
+li {
+	margin:20px 0px;
+}
+.hashtag {
+/*	font-family: 'Source Code Pro', serif;
+*/	color: #999;
+	font-weight: 400;
+}
+#content {
+	display:none;
+}
+
+.clear {
+	clear: both;
+}
+
+/* FOOTER */
+#footer {
+	margin:100px 0px 50px 0px;
+	width: 100%;
+	text-align: center;
+	color:#999;
+	font-size: 0.75em;
+}
+#nytlabs {
+	width:20%;
+	min-width: 100px;
+	max-width: 150px;
+}
+
+/* MOBILE */
+
+@media all and (max-width: 770px) {
+	body, html {
+		line-height:1.2em;
+	}
+	#intro {
+		width:100%;
+	}
+	#logo {
+		margin:0px 0px 30px 0px;
+		text-align: center;
+		/*opacity: 0.7;*/
+	}
+	#title {
+		margin:30px 0px 30px 0px;
+		font-size: 2em;
+	}
+}

@@ -1,0 +1,49 @@
+{% autoescape None %}
+<html>
+<head>
+
+    <title>Birdhouse</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/list.css">
+    <link href='http://fonts.googleapis.com/css?family=Dosis:200,300,400,700|Source+Code+Pro:400,700' rel='stylesheet' type='text/css'>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!--typekit-->
+    <script type="text/javascript" src="//use.typekit.net/sfu1xqz.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <meta name="viewport" content="width=device-width">
+
+</head>
+<body>
+<div id="container">
+<!--     <div id="nav">
+        <div id="username"></div> &nbsp;|&nbsp; <a href="/logout" id="logout">Sign out</a>
+    </div> -->
+
+    <br class="clear" />
+    <div id="logo">
+        <a href="/"><img src="../static/img/bird.png" id="bird" /></a>
+    </div>
+    <p id="title">
+        birdhouse
+    </p>
+
+   <div id="intro" style="text-align:center;">
+        <p>
+            Hi, <span class="hashtag">{{ screen_name }}</span>. Thanks for using birdhouse.
+        </p>
+        <p>
+            We're collecting your whole profile, all the time. Ability to select lists, twitter accounts, etc. coming soon.
+        </p>
+        <p>
+            If you no longer want to use birdhouse, you can revoke access via your Twitter account's <a href="https://twitter.com/settings/applications">Applications preferences.</a>
+        </p>
+   </div>
+
+
+   <!--footer-->
+    <div id="footer">&copy; Copyright 2016 &ndash; Matt Boggie</div>
+
+</div>
+
+</body>
+</html>
