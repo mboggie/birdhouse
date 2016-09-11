@@ -18,9 +18,10 @@ Once properly installed and configured, birdhouse will collect the tweets from y
 ## Development tips
 
 This project likes it if you use `virtualenv` to manage your Python requirements and environments (and generally, it's a not-bad idea to do that anyway.) To get started, do the following at the root of the project (once you've cloned/downloaded it):
-	* `virtualenv --no-site-packages VIRTUAL`
-	* `source VIRTUAL/bin/activate`
-	* `pip install -r requirements.txt`
+
+* `virtualenv --no-site-packages VIRTUAL`
+* `source VIRTUAL/bin/activate`
+* `pip install -r requirements.txt`
 
 (For more on using virtualenv, go here: https://blog.dbrgn.ch/2012/9/18/virtualenv-quickstart/)
 
